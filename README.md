@@ -2,6 +2,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Powered%20by-Claude%20Code-blue)](https://code.claude.com)
 
+> **This is a fork of [m98/fluent](https://github.com/m98/fluent)** by [@gareth0712](https://github.com/gareth0712).
+> Changes in this fork: all slash commands are namespaced with `/fluent-` prefix to avoid collisions with other Claude Code skills, and all Dutch-specific residue has been removed to make the system genuinely language-agnostic.
+> Original author: [m98](https://github.com/m98) — thank you for the excellent foundation!
+
 **The AI Language Learning Kit for Claude Code and others**
 
 *A comprehensive set of rules, guidance, and intelligent tracking systems that transform Claude Code into your personal language tutor. Master any language through adaptive practice powered by proven cognitive science—spaced repetition, active recall, and progress tracking that learns from you.*
@@ -37,7 +41,7 @@ You can either download the ZIP file and extract it, or clone it using git:
 
 3. **Run the setup command:**
    ```
-   /setup
+   /fluent-setup
    ```
 
 4. **Answer a few questions:**
@@ -49,7 +53,7 @@ You can either download the ZIP file and extract it, or clone it using git:
 
 5. **Start learning:**
    ```
-   /learn
+   /fluent-learn
    ```
 
 **That's it!** Your AI tutor is ready and knows everything about your goals.
@@ -160,44 +164,44 @@ This system implements proven learning science:
 
 | Command | What It Does | When & Why to Use It |
 |---------|--------------|----------------------|
-| **`/setup`** | **One-time onboarding** - Asks you questions about your name, target language, current level, goals, and timeline. Creates your personalized learning profile. | **First time only** - Run this once to set up your account. The system generates a custom learning plan based on your answers. |
-| **`/learn`** | **Adaptive mixed practice** - Combines different exercise types (vocabulary, grammar, sentences) based on your weak areas. Adjusts difficulty in real-time based on your performance. | **Daily core practice** - Your main command for general improvement. The AI decides what you need to practice most. Best after `/review`. |
-| **`/review`** | **Spaced repetition session** - Shows you items that are due for review today based on the SM-2 algorithm. Focuses on things you learned before that need reinforcement. | **Start every day here!** - Review before learning new content. This is scientifically proven to be the most effective way to retain what you've learned. |
+| **`/fluent-setup`** | **One-time onboarding** - Asks you questions about your name, target language, current level, goals, and timeline. Creates your personalized learning profile. | **First time only** - Run this once to set up your account. The system generates a custom learning plan based on your answers. |
+| **`/fluent-learn`** | **Adaptive mixed practice** - Combines different exercise types (vocabulary, grammar, sentences) based on your weak areas. Adjusts difficulty in real-time based on your performance. | **Daily core practice** - Your main command for general improvement. The AI decides what you need to practice most. Best after `/fluent-review`. |
+| **`/fluent-review`** | **Spaced repetition session** - Shows you items that are due for review today based on the SM-2 algorithm. Focuses on things you learned before that need reinforcement. | **Start every day here!** - Review before learning new content. This is scientifically proven to be the most effective way to retain what you've learned. |
 
 ### Skill-Specific Commands
 
 | Command | What It Does | When & Why to Use It |
 |---------|--------------|----------------------|
-| **`/vocab`** | **Flashcard-style vocabulary drills** - Rapid-fire translation practice (target language ↔ native language). Tracks which words you struggle with. | **2-3x per week** - When you need to build vocabulary quickly. Great for preparing for specific topics (travel, business, etc.). |
-| **`/writing`** | **Writing practice** - Practice emails, letters, essays, or forms in your target language. Get detailed corrections with grammar explanations. | **Daily for exam prep** - Essential if you're preparing for language exams. Also great for building confidence in real-world communication. |
-| **`/speaking`** | **Conversation practice** - Role-play scenarios through typed dialogue. Practice natural conversations, asking for directions, ordering food, etc. | **2-3x per week** - Builds confidence for real conversations. Typed practice helps you think through responses without pressure. |
-| **`/reading`** | **Reading comprehension** - Read short texts (stories, articles, dialogues) then answer comprehension questions. Expands vocabulary in context. | **2-3x per week** - Improves overall understanding. Best for intermediate+ learners. Reading is one of the fastest ways to absorb grammar patterns. |
+| **`/fluent-vocab`** | **Flashcard-style vocabulary drills** - Rapid-fire translation practice (target language ↔ native language). Tracks which words you struggle with. | **2-3x per week** - When you need to build vocabulary quickly. Great for preparing for specific topics (travel, business, etc.). |
+| **`/fluent-writing`** | **Writing practice** - Practice emails, letters, essays, or forms in your target language. Get detailed corrections with grammar explanations. | **Daily for exam prep** - Essential if you're preparing for language exams. Also great for building confidence in real-world communication. |
+| **`/fluent-speaking`** | **Conversation practice** - Role-play scenarios through typed dialogue. Practice natural conversations, asking for directions, ordering food, etc. | **2-3x per week** - Builds confidence for real conversations. Typed practice helps you think through responses without pressure. |
+| **`/fluent-reading`** | **Reading comprehension** - Read short texts (stories, articles, dialogues) then answer comprehension questions. Expands vocabulary in context. | **2-3x per week** - Improves overall understanding. Best for intermediate+ learners. Reading is one of the fastest ways to absorb grammar patterns. |
 
 ### Progress Command
 
 | Command | What It Does | When & Why to Use It |
 |---------|--------------|----------------------|
-| **`/progress`** | **Statistics dashboard** - Shows your accuracy trends, streak days, mastery levels, achievements unlocked, and weak areas. Visual progress charts. | **Weekly check-in** - See how far you've come! Motivation boost when you see concrete improvement. Helps identify what to focus on next. |
+| **`/fluent-progress`** | **Statistics dashboard** - Shows your accuracy trends, streak days, mastery levels, achievements unlocked, and weak areas. Visual progress charts. | **Weekly check-in** - See how far you've come! Motivation boost when you see concrete improvement. Helps identify what to focus on next. |
 
 ### 📅 Recommended Daily Routine
 
 **🌅 Morning Session (15 min)**
 ```bash
-/review    # Must do first - Review what you learned before
-/vocab     # Learn 5-10 new words
+/fluent-review    # Must do first - Review what you learned before
+/fluent-vocab     # Learn 5-10 new words
 ```
 **Why?** Your brain is fresh. Reviewing first reinforces old knowledge, then new vocabulary sticks better.
 
 **🌙 Evening Session (15 min)**
 ```bash
-/writing   # Practice real-world writing
-/learn     # Let AI choose what you need most
+/fluent-writing   # Practice real-world writing
+/fluent-learn     # Let AI choose what you need most
 ```
-**Why?** Writing solidifies what you learned today. `/learn` fills in any gaps.
+**Why?** Writing solidifies what you learned today. `/fluent-learn` fills in any gaps.
 
 **📊 Weekly Check-In (5 min)**
 ```bash
-/progress  # See your stats and celebrate progress!
+/fluent-progress  # See your stats and celebrate progress!
 ```
 **Why?** Seeing improvement = motivation. You need to see you're getting better!
 
@@ -207,16 +211,16 @@ This system implements proven learning science:
 
 ### Data Layer (`/data` directory)
 
-**Your learning data is tracked in 6 JSON databases** (created automatically by `/setup`):
+**Your learning data is tracked in 6 JSON databases** (created automatically by `/fluent-setup`):
 
 | File | Purpose | Created When |
 |------|---------|--------------|
-| `learner-profile.json` | Your info, level, preferences, streak | `/setup` - One time |
-| `progress-db.json` | Overall statistics and trends | `/setup` - Updated every session |
-| `mistakes-db.json` | Error patterns with frequency and examples | `/setup` - Updated when you make mistakes |
-| `mastery-db.json` | Skill mastery levels (0-5 stars) | `/setup` - Updated after practice |
-| `spaced-repetition.json` | Review queue (SM-2 algorithm) | `/setup` - Updated after each answer |
-| `session-log.json` | Complete session history | `/setup` - New entry each session |
+| `learner-profile.json` | Your info, level, preferences, streak | `/fluent-setup` - One time |
+| `progress-db.json` | Overall statistics and trends | `/fluent-setup` - Updated every session |
+| `mistakes-db.json` | Error patterns with frequency and examples | `/fluent-setup` - Updated when you make mistakes |
+| `mastery-db.json` | Skill mastery levels (0-5 stars) | `/fluent-setup` - Updated after practice |
+| `spaced-repetition.json` | Review queue (SM-2 algorithm) | `/fluent-setup` - Updated after each answer |
+| `session-log.json` | Complete session history | `/fluent-setup` - New entry each session |
 
 **📋 Want to see the structure?** Check `/data-examples/` for template files showing the complete schema.
 
@@ -423,7 +427,7 @@ It helps others discover this project and motivates us to keep improving it!
 A: It’s ultra-minimalistic, just a terminal and pure learning. No extra distributions, no ads, no gimmicks. Infinitely adaptable. You ask it to teach you something, and it does. And best of all, everything stays private on your machine.
 
 **Q: Do I need to know how to code?**
-A: No! Just install Claude Code and run `/setup`. That's it.
+A: No! Just install Claude Code and run `/fluent-setup`. That's it.
 
 **Q: How long until I see progress?**
 A: Most learners see measurable improvement within the first week. The system tracks everything so you can see exactly how you're improving.
@@ -448,8 +452,8 @@ But feel free to experiment and share your findings!
 *Start your language learning journey today!* 🚀
 
 ```bash
-git clone https://github.com/m98/fluent.git
+git clone https://github.com/gareth0712/fluent.git
 cd fluent
 claude
-/setup
+/fluent-setup
 ```

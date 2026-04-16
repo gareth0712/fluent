@@ -1,6 +1,6 @@
-# AI Guide: Dutch Writing Practice Methodology
+# AI Guide: Writing Practice Methodology
 
-**Purpose:** This document instructs Claude AI on how to analyze practice session results, track student progress, and deliver adaptive lessons for A2 Dutch writing exam preparation.
+**Purpose:** This document instructs Claude AI on how to analyze practice session results, track student progress, and deliver adaptive lessons for writing exam preparation at any target language level.
 
 ---
 
@@ -78,9 +78,9 @@ Categorize every ❌ error into:
 - **Grammar** (word order, verb conjugation, clause structure)
 - **Vocabulary** (wrong word choice, missing words)
 - **Spelling** (minor - not critical for exam!)
-- **Formal/Informal** (u vs je, uw vs jouw)
-- **Prepositions** (om/op/in/bij/naar/etc)
-- **English Mixing** (using English words)
+- **Formal/Informal** (using wrong register — formal vs informal pronoun/phrasing for the target language)
+- **Prepositions** (incorrect preposition usage in the target language)
+- **English Mixing** (using English words instead of target language words)
 
 ### Step 3: Count Frequency
 Track how many times each pattern appears:
@@ -112,8 +112,8 @@ Include this in each session summary:
 
 | Category | Specific Pattern | Count This Session | Total Count | Severity | Example |
 |----------|------------------|-------------------|-------------|----------|---------|
-| Formal/Informal | Using "je" in formal context | 2 | 5 | 🔴 CRITICAL | "Ik schrijf je" → "Ik schrijf u" |
-| Word Order | Wrong "omdat" clause order | 1 | 3 | 🟡 MODERATE | "omdat ik kan niet" → "omdat ik niet kan" |
+| Formal/Informal | Using informal pronoun in formal context | 2 | 5 | 🔴 CRITICAL | "[informal greeting]" → "[formal greeting in target language]" |
+| Word Order | Wrong subordinate clause word order | 1 | 3 | 🟡 MODERATE | "[wrong order]" → "[correct order in target language]" |
 ```
 
 ### Strength Tracking Table
@@ -245,27 +245,27 @@ In each session, allocate time:
 ## 📝 Question Types to Use
 
 ### Isolated Pattern Drill
-**Example:** "Fill in: Ik schrijf ___ omdat... (formal context)"
+**Example:** "Fill in: [Formal sentence starter in target language]... (formal context)"
 - Tests one specific skill
 - Immediate feedback
 
 ### Sentence Completion
-**Example:** "Complete: Ik kan morgen niet komen omdat... (reason: sick)"
+**Example:** "Complete: [Sentence with reason clause in target language]... (reason: sick)"
 - Tests structure + vocabulary
 - Medium difficulty
 
 ### Translation
-**Example:** "Write in Dutch: I am writing to you because I have a question"
+**Example:** "Write in [target language]: I am writing to you because I have a question"
 - Tests full production
 - High difficulty
 
 ### Error Correction
-**Example:** "Fix this: Ik scrift je omdat ik kan niet komen vandag"
+**Example:** "Fix this: [sentence with intentional errors in target language]"
 - Builds editing skill
 - Shows pattern awareness
 
 ### Full Scenario
-**Example:** "Write an email to your boss requesting Thursday off (40 words)"
+**Example:** "Write an email to your boss requesting Thursday off (40 words) in [target language]"
 - Exam simulation
 - Integrates all skills
 
@@ -275,12 +275,12 @@ In each session, allocate time:
 
 ### Critical Issues (Must Fix Before Exam)
 - **Formal/Informal confusion** → Will lose major points
-- **Wrong word order in clauses** → Incomprehensible Dutch
+- **Wrong word order in clauses** → Makes writing incomprehensible in the target language
 - **English mixing** → Shows lack of vocabulary depth
 
 ### Moderate Issues (Work On These)
 - **Preposition errors** → Can usually be understood from context
-- **Missing articles (de/het)** → Minor point deduction
+- **Missing articles or gender markers** → Minor point deduction (varies by language)
 - **Verb conjugation slips** → Depends on context
 
 ### Minor Issues (Don't Worry)

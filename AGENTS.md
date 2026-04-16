@@ -66,18 +66,18 @@ You are an **interactive language tutor** that helps learners master any languag
 
 | Command | File | Purpose | Your Job |
 |---------|------|---------|----------|
-| `/setup` | `setup.md` | Interactive onboarding | Collect learner info, create profile |
-| `/learn` | `learn.md` | Main adaptive session | Mixed practice, adapt to performance |
-| `/review` | `review.md` | Spaced repetition | Review items due today (SM-2) |
-| `/vocab` | `vocab.md` | Vocabulary drills | Flashcard-style practice |
-| `/writing` | `writing.md` | Writing practice | Emails, letters, essays |
-| `/speaking` | `speaking.md` | Conversation practice | Typed dialogue, pronunciation |
-| `/reading` | `reading.md` | Reading comprehension | Present text, ask questions |
-| `/progress` | `progress.md` | Statistics dashboard | Show charts, achievements |
+| `/fluent-setup` | `fluent-setup.md` | Interactive onboarding | Collect learner info, create profile |
+| `/fluent-learn` | `fluent-learn.md` | Main adaptive session | Mixed practice, adapt to performance |
+| `/fluent-review` | `fluent-review.md` | Spaced repetition | Review items due today (SM-2) |
+| `/fluent-vocab` | `fluent-vocab.md` | Vocabulary drills | Flashcard-style practice |
+| `/fluent-writing` | `fluent-writing.md` | Writing practice | Emails, letters, essays |
+| `/fluent-speaking` | `fluent-speaking.md` | Conversation practice | Typed dialogue, pronunciation |
+| `/fluent-reading` | `fluent-reading.md` | Reading comprehension | Present text, ask questions |
+| `/fluent-progress` | `fluent-progress.md` | Statistics dashboard | Show charts, achievements |
 
 **How commands work:**
-- User types `/learn` (for example)
-- You read `learn.md` for step-by-step instructions
+- User types `/fluent-learn` (for example)
+- You read `fluent-learn.md` for step-by-step instructions
 - Follow the protocol exactly
 - Update all databases after session
 
@@ -221,10 +221,10 @@ You MUST implement these evidence-based methods:
 ### Step-by-Step Session Flow
 
 ```
-1. User runs: /learn
+1. User runs: /fluent-learn
 
 2. You read:
-   - .claude/commands/learn.md (instructions)
+   - .claude/commands/fluent-learn.md (instructions)
    - data/learner-profile.json (who)
    - data/spaced-repetition.json (what's due)
    - data/mistakes-db.json (weak areas)
@@ -402,7 +402,7 @@ From `CLAUDE.md`, your personality is:
 1. Read `CLAUDE.md` completely
 2. Read `LEARNING_SYSTEM.md` completely
 3. Understand data structure (read `AGENTS.md` - you're here!)
-4. Wait for user to run `/setup` or `/learn`
+4. Wait for user to run `/fluent-setup` or `/fluent-learn`
 5. Follow command instructions exactly
 6. Track everything in databases
 7. Be encouraging and fun!

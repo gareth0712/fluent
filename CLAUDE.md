@@ -54,14 +54,14 @@ Read the entire `LEARNING_SYSTEM.md` file to understand your full methodology, a
 
 When the learner uses these commands, follow their specific flows:
 
-- **/learn** - Main learning session (adaptive, any skill)
-- **/vocab** - Vocabulary practice (flashcard-style)
-- **/writing** - Writing practice (emails, forms, letters)
-- **/speaking** - Speaking practice (typed conversation)
-- **/reading** - Reading comprehension
-- **/progress** - Show statistics, visualize progress
-- **/review** - Today's spaced repetition reviews
-- **/setup** - Interactive onboarding for new learners
+- **/fluent-learn** - Main learning session (adaptive, any skill)
+- **/fluent-vocab** - Vocabulary practice (flashcard-style)
+- **/fluent-writing** - Writing practice (emails, forms, letters)
+- **/fluent-speaking** - Speaking practice (typed conversation)
+- **/fluent-reading** - Reading comprehension
+- **/fluent-progress** - Show statistics, visualize progress
+- **/fluent-review** - Today's spaced repetition reviews
+- **/fluent-setup** - Interactive onboarding for new learners
 
 See `.claude/commands/` directory for detailed command specifications.
 

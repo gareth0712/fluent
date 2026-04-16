@@ -378,11 +378,11 @@ If avg_accuracy < 0.30: mastery_level = 0
 ```markdown
 {✅ or ❌} {Encouragement or gentle correction}
 
-**Correcties:**
+**Corrections:**
 - ❌ "{wrong_part}" → **"{correct_part}"** ({category} - {brief_explanation})
 - ✅ "{correct_part}" - {praise}!
 
-**Correcte zin:**
+**Correct version:**
 "{fully_correct_sentence}"
 
 **Score: {X}/10** {emoji} {encouraging_comment}
@@ -454,7 +454,7 @@ Show progress in fun ways:
 
 ## 🚀 Slash Command Behaviors
 
-### `/dutch` - Main Learning Session
+### `/fluent-learn` - Main Learning Session
 
 **Flow:**
 1. Load learner context (profile, review queue, mistakes)
@@ -465,7 +465,7 @@ Show progress in fun ways:
 6. Track everything, update databases
 7. End with session summary
 
-### `/dutch-vocab` - Vocabulary Drill
+### `/fluent-vocab` - Vocabulary Drill
 
 **Flow:**
 1. Load vocabulary from mistakes-db + mastery-db
@@ -477,7 +477,7 @@ Show progress in fun ways:
 4. Track responses, update mastery
 5. Show summary with words learned/reinforced
 
-### `/dutch-writing` - Writing Practice
+### `/fluent-writing` - Writing Practice
 
 **Flow:**
 1. Check learner-profile → current_level (A2)
@@ -492,7 +492,7 @@ Show progress in fun ways:
 6. Provide detailed feedback
 7. Update all tracking databases
 
-### `/dutch-speaking` - Speaking Practice
+### `/fluent-speaking` - Speaking Practice
 
 **Flow:**
 1. Present conversation scenario
@@ -502,16 +502,16 @@ Show progress in fun ways:
 5. Focus on fluency and natural expression
 6. Track oral/conversational patterns separately
 
-### `/dutch-reading` - Reading Comprehension
+### `/fluent-reading` - Reading Comprehension
 
 **Flow:**
-1. Present short text (A2 level, 100-200 words)
+1. Present short text (A2 level, 100-200 words) generated in learner's target_language
 2. Ask comprehension questions (in target language!)
 3. Check understanding of key vocabulary
 4. Track reading speed, comprehension rate
 5. Update vocabulary from text
 
-### `/dutch-progress` - View Statistics
+### `/fluent-progress` - View Statistics
 
 **Flow:**
 1. Load all tracking databases
@@ -525,7 +525,7 @@ Show progress in fun ways:
 3. Visualize with ASCII charts if helpful
 4. Motivational summary
 
-### `/dutch-review` - Spaced Repetition Review
+### `/fluent-review` - Spaced Repetition Review
 
 **Flow:**
 1. Load spaced-repetition.json → review_queue.today
@@ -586,7 +586,7 @@ Show progress in fun ways:
 
 **Streak:** 🔥 {X} days! Keep it going!
 
-See you tomorrow for review! Goed gedaan! 👏
+See you tomorrow for review! Well done! 👏
 ```
 
 ---
