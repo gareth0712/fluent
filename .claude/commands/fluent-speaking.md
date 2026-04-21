@@ -14,7 +14,7 @@ Practice conversational target language by responding to questions and scenarios
 ```markdown
 # 🗣️ target language Speaking Practice
 
-Hallo the learner!
+Hello, {learner_name}!
 
 Today we're going to practice **speaking** target language through typed conversation. I'll ask you questions or give you scenarios, and you respond naturally in target language - just like a real conversation!
 
@@ -48,32 +48,34 @@ Today we're going to practice **speaking** target language through typed convers
 ### 3. Question Format (ONE AT A TIME!)
 
 ```markdown
-## Vraag {N}: {Topic}
+## Question {N}: {Topic}
 
 {Question in target language}
 
 **Type your answer in target language:**
 ```
 
-**Example Questions:**
+**Example Questions** (Claude should generate these in the learner's `target_language`):
 
 **Personal:**
-- "Vertel me over jezelf. Waar kom je vandaan?"
-- "Wat doe je in je vrije tijd?"
-- "Heb je broers of zussen?"
+- "[Ask the learner to introduce themselves and where they are from]"
+- "[Ask what they do in their free time]"
+- "[Ask if they have siblings]"
 
 **Daily Life:**
-- "Wat doe je meestal op maandag?"
-- "Hoe laat sta je op?"
-- "Wat eet je graag voor ontbijt?"
+- "[Ask what they usually do on Mondays]"
+- "[Ask what time they wake up]"
+- "[Ask what they like to eat for breakfast]"
 
 **Future/Plans:**
-- "Wat ga je dit weekend doen?"
-- "Waar wil je naartoe op vakantie?"
+- "[Ask what they plan to do this weekend]"
+- "[Ask where they want to go on holiday]"
 
 **Opinions:**
-- "Vind je het weer vandaag mooi?"
-- "Wat vind je van Nederlandse eten?"
+- "[Ask their opinion about today's weather]"
+- "[Ask what they think about local food]"
+
+Note: Claude must produce all questions in the learner's actual `target_language` — the bracketed descriptions above are English placeholders for this template only.
 
 ### 4. Evaluate Responses
 
@@ -128,7 +130,7 @@ You could also say: "{alternative_natural_expression}"
 After 3-4 questions on one topic, transition:
 
 ```markdown
-**Interessant!** (Interesting!)
+**[Interesting! — say this in target language]**
 
 Let's talk about something else now...
 
@@ -190,14 +192,14 @@ For advanced A2, introduce role-plays:
 - Practice: {weak_area}
 - Topic idea: {suggestion}
 
-**Goed gedaan!** Your conversational target language is improving! 🌟
+**Well done!** Your conversational {target_language} is improving! 🌟
 
 ---
 
 **Tips for Real Conversations:**
 - Don't worry about perfect grammar
-- It's okay to ask "Wat betekent dat?" (What does that mean?)
-- If you don't know a word, describe it: "Het ding dat je gebruikt om..." (The thing you use to...)
+- It's okay to ask how to say something you don't know (ask in your native language if needed)
+- If you don't know a word, describe it in the target language using simpler vocabulary
 - Practice makes perfect - try to speak target language whenever you can!
 ```
 
@@ -216,15 +218,10 @@ For advanced A2, introduce role-plays:
 - Start simple - even short answers are progress!
 - It's okay to make mistakes - that's how you learn
 - Focus on communication first, perfect grammar later
-- Imagine you're talking to a target language friend
+- Imagine you're talking to a native speaker of your target language
 
-**Common Conversational Phrases:**
-- "Nou..." (Well.../So...)
-- "Eh..." (Uh.../Um...)
-- "Eigenlijk..." (Actually...)
-- "Dus..." (So.../Therefore...)
-- "Ja, dat klopt" (Yes, that's right)
-- "Ik snap het niet" (I don't understand)
+**Common Conversational Filler Phrases:**
+- Claude will teach you the target-language equivalents of fillers like "Well...", "Actually...", "So...", "Yes, that's right", and "I don't understand" — these vary by language and will be provided during sessions.
 
 **Pro Tips:**
 - Listen to target language podcasts/videos for natural rhythm

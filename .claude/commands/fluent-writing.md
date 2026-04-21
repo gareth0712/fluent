@@ -62,7 +62,7 @@ Let him write the complete text before giving feedback.
 
 Check for these error categories:
 1. **Grammar errors** (word order, verb conjugation, articles)
-2. **Formal/Informal mixing** (u vs je confusion)
+2. **Formal/Informal mixing** (using informal register in formal context or vice versa)
 3. **Vocabulary errors** (wrong words, English mixing)
 4. **Missing elements** (forgot greeting, closing, etc.)
 5. **Spelling** (mark as minor - allowed in A2 exam)
@@ -157,27 +157,27 @@ Type "rewrite" to try again, or "next" to continue.
 - Focus on: {specific_weakness}
 - Review: {relevant_flashcards_or_patterns}
 
-Goed gedaan! Keep practicing! ✍️
+Well done! Keep practicing! ✍️
 ```
 
 ## Writing Tips for the learner
 
 **Formal Emails:**
-- Always use "u" (not "je")
-- Start: "Beste meneer/mevrouw {NAME},"
-- Open: "Ik schrijf u omdat..."
-- Close: "Met vriendelijke groet," + name
+- Use the formal pronoun/register appropriate for `target_language` (e.g., formal "you" equivalent)
+- Begin with a language-appropriate formal salutation (e.g., "Dear Mr/Ms {NAME}" in English; Claude should use the correct equivalent in the learner's target language)
+- Open with a clear, polite statement of purpose
+- Close with a language-appropriate formal sign-off
 
 **Informal Emails:**
-- Use "je" (not "u")
-- Start: "Hallo {NAME},"
-- More casual language OK
-- Close: "Groetjes," or "Tot snel,"
+- Use the informal register appropriate for `target_language`
+- Begin with a casual greeting in the target language
+- More relaxed language and contractions are acceptable
+- Close with a friendly, casual sign-off in the target language
 
-**Common Mistakes to Avoid:**
-- ❌ Don't mix formal/informal in same text
-- ❌ Watch word order in "omdat" clauses
-- ❌ Remember: "om 10:00 uur" (at time), "op dinsdag" (on day)
-- ❌ Don't forget "u" after "Ik schrijf" in formal contexts
+**Common Mistakes to Avoid (language-agnostic):**
+- ❌ Don't mix formal/informal register in the same text
+- ❌ Watch subordinate clause word order (varies by target language)
+- ❌ Use correct prepositions for time expressions in the target language
+- ❌ Be consistent with the chosen register throughout
 
 Let's improve your writing! 🚀

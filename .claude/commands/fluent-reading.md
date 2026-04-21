@@ -14,7 +14,7 @@ Practice reading and understanding target language texts at A2 level.
 ```markdown
 # 👀 target language Reading Practice
 
-Hallo the learner!
+Hello, {learner_name}!
 
 Today we're practicing **reading comprehension**. I'll show you a target language text, and you'll answer questions about it. This builds vocabulary and helps you understand written target language!
 
@@ -77,9 +77,9 @@ After the learner types "ready", present questions.
 
 **1. Main Idea:**
 ```markdown
-## Vraag 1: Hoofdidee (Main Idea)
+## Question 1: Main Idea
 
-**Waar gaat de tekst over?** (What is the text about?)
+**[Ask in target language: What is the text about?]**
 
 a) {option1}
 b) {option2}
@@ -90,19 +90,18 @@ c) {option3}
 
 **2. Specific Details:**
 ```markdown
-## Vraag 2: Details
+## Question 2: Details
 
-**{Specific question about detail in text}**
+**[Ask a specific detail question in target language]**
 
 **Type your answer:**
 ```
 
 **3. Vocabulary in Context:**
 ```markdown
-## Vraag 3: Vocabulaire
+## Question 3: Vocabulary
 
-**In de tekst staat "{word/phrase}".**
-**Wat betekent dit?**
+**[In target language: The text contains "{word/phrase}". What does it mean?]**
 
 a) {meaning1}
 b) {meaning2}
@@ -113,23 +112,25 @@ c) {meaning3}
 
 **4. Inference:**
 ```markdown
-## Vraag 4: Begrijpen
+## Question 4: Inference
 
-**{Question requiring inference from text}**
+**[Ask an inference question in target language]**
 
 **Type your answer in target language:**
 ```
 
 **5. True/False:**
 ```markdown
-## Vraag 5: Waar of niet waar?
+## Question 5: True or False?
 
-**{Statement about text}**
+**[Statement about the text in target language]**
 
-Waar of niet waar?
+[True or false? — phrased in target language]
 
 **Type your answer:**
 ```
+
+Note: Claude must phrase all question headers and prompts in the learner's `target_language`. The English descriptions above are template placeholders only.
 
 ### 6. Feedback After Each Question
 
@@ -141,7 +142,7 @@ Waar of niet waar?
 **Explanation:**
 {Why this is correct, reference text if needed}
 
-{If incorrect: **In de tekst staat:** "{relevant_quote_from_text}"}
+{If incorrect: **The text says:** "{relevant_quote_from_text}"}
 
 **Score: {X}/10**
 
@@ -208,10 +209,10 @@ If the learner says yes, add words to vocabulary database.
 - Notice patterns in grammar and common phrases
 
 **Suggested Resources:**
-- NOS Nieuws (news in simple target language)
-- target language children's books (great for A2!)
-- Instagram/Twitter in target language
-- Product labels and signs (everywhere!)
+- News websites in your target language (search for simple/easy-read editions)
+- Children's books in your target language (great for A2!)
+- Social media accounts in your target language
+- Product labels and signs in target-language-speaking environments
 ```
 
 ### 9. Update Databases
@@ -221,51 +222,35 @@ If the learner says yes, add words to vocabulary database.
 - **session-log.json**: Add reading session
 - **vocabulary database**: Add new words if the learner requested
 
-## Example A2 Texts
+## Example A2 Text Structures
 
-### Example 1: Personal Email
+Claude should **generate all reading texts in the learner's `target_language`** at the appropriate CEFR level. Do NOT use hardcoded text in any specific language. The structures below show the type of content to generate:
 
-```
-Beste the learner,
+### Example Structure 1: Personal Email (~100 words)
 
-Bedankt voor je email! Leuk dat je naar Amsterdam komt volgende maand. Ik heb tijd op zaterdag 15 maart. Zullen we om 14:00 uur afspreken bij het Centraal Station? We kunnen naar een café gaan en daarna door de stad wandelen.
+Generate a friendly email in `target_language` where a friend responds to the learner's earlier message. Include:
+- Casual greeting in target language
+- A reference to meeting up (date, time, place)
+- A practical tip or comment about the meeting
+- A warm sign-off
 
-Het weer is meestal koud in maart, dus neem een warme jas mee! Ik verheug me erop om je te zien.
+### Example Structure 2: Advertisement (~80 words)
 
-Groetjes,
-Lisa
-```
+Generate a simple advertisement in `target_language` for a local class, service, or event. Include:
+- A headline
+- 3–4 bullet-point features
+- Price or schedule information
+- Contact details (placeholder)
+- A short call to action
 
-### Example 2: Advertisement
+### Example Structure 3: Simple News Article (~120 words)
 
-```
-CURSUS NEDERLANDS VOOR BEGINNERS
-
-Wil je Nederlands leren? Start deze maand nog!
-
-- Kleine groepen (max 8 personen)
-- Ervaren docenten
-- 2x per week, 's avonds
-- Locatie: Centrum Amsterdam
-- Prijs: €150 per maand
-
-Aanmelden kan via email: info@nederlandscursus.nl
-Bel voor meer informatie: 020-123-4567
-
-Eerste les gratis!
-```
-
-### Example 3: Simple News
-
-```
-NIEUWE FIETSPADEN IN UTRECHT
-
-De stad Utrecht krijgt dit jaar 10 kilometer nieuwe fietspaden. De werkzaamheden beginnen in april en duren tot september.
-
-"We willen dat fietsen veiliger wordt," zegt de wethouder. De nieuwe paden komen vooral in wijken waar veel kinderen wonen.
-
-Tijdens de werkzaamheden kunnen sommige straten tijdelijk dicht zijn. Fietsers moeten dan een andere route nemen. Meer informatie staat op de website van de gemeente.
-```
+Generate a short news-style article in `target_language` about a local improvement (e.g. new park, new bus route, community event). Include:
+- A headline
+- Who / what / where / when in the opening sentence
+- A short quote from an official
+- One sentence about impact on residents
+- One sentence about where to find more information
 
 ## Reading Progression
 

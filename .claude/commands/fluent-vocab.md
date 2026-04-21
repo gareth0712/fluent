@@ -36,7 +36,7 @@ data/mastery-db.json
 
 **target language:** {word}
 
-**Context:** {example_sentence_in_dutch}
+**Context:** {example_sentence_in_target_language}
 
 **What does it mean in English?**
 
@@ -112,7 +112,7 @@ After all words reviewed:
 - Tomorrow: {N} words
 - This week: {M} words
 
-Goed gedaan! 🌟
+Well done! 🌟
 ```
 
 ### 6. Update Databases

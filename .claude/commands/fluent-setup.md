@@ -240,16 +240,16 @@ Calculate and show:
 ### Recommended Weekly Schedule
 
 **Daily (Every day):**
-- 🔄 `/review` - Spaced repetition ({X} min)
-- 📚 `/vocab` - New vocabulary ({Y} min)
+- 🔄 `/fluent-review` - Spaced repetition ({X} min)
+- 📚 `/fluent-vocab` - New vocabulary ({Y} min)
 
 **Alternating Days:**
-- 📝 `/writing` - Writing practice (Mon/Wed/Fri)
-- 🗣️ `/speaking` - Conversation (Tue/Thu/Sat)
-- 📖 `/reading` - Reading comprehension (Sun)
+- 📝 `/fluent-writing` - Writing practice (Mon/Wed/Fri)
+- 🗣️ `/fluent-speaking` - Conversation (Tue/Thu/Sat)
+- 📖 `/fluent-reading` - Reading comprehension (Sun)
 
 **Weekly:**
-- 📊 `/progress` - Check your stats (5 min)
+- 📊 `/fluent-progress` - Check your stats (5 min)
 
 ### Key Milestones
 
@@ -260,14 +260,14 @@ Calculate and show:
 
 ### Next Steps
 
-1. **Start now:** Type `/learn` to begin your first lesson
-2. **Daily habit:** Start with `/review` each day
-3. **Track progress:** Check `/progress` weekly
+1. **Start now:** Type `/fluent-learn` to begin your first lesson
+2. **Daily habit:** Start with `/fluent-review` each day
+3. **Track progress:** Check `/fluent-progress` weekly
 4. **Stay consistent:** Even 10 minutes daily beats 2 hours weekly!
 
 **Your journey to {target_language} fluency starts now!** 🚀
 
-Type `/learn` to start practicing!
+Type `/fluent-learn` to start practicing!
 ```
 
 Ask any other questions needed, based on the information we need to fill in `data-examples/learner-profile-template.json`, then move this file to `data/learner-profile.json`.
@@ -303,7 +303,7 @@ If yes, launch `/learn` with beginner-friendly content.
 
 ## Profile Updates
 
-If user runs `/setup` again with existing profile:
+If user runs `/fluent-setup` again with existing profile:
 
 ```markdown
 # 👋 Welcome back, {name}!

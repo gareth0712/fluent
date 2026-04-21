@@ -31,7 +31,7 @@ From `spaced-repetition.json` → `review_queue.today`:
 ```markdown
 # 🔄 Today's Spaced Repetition Review
 
-Hallo the learner! Time to review items that your brain is about to forget. This keeps your knowledge fresh! 🧠
+Hello, {learner_name}! Time to review items that your brain is about to forget. This keeps your knowledge fresh! 🧠
 
 **Items Due Today:** {count}
 **Estimated Time:** ~{minutes} minutes
@@ -177,9 +177,9 @@ Keep going! 💪
 ---
 
 Want to practice something new? Try:
-- `/dutch` - Start new learning session
-- `/dutch-writing` - Practice writing
-- `/dutch-vocab` - Learn new vocabulary
+- `/fluent-learn` - Start new learning session
+- `/fluent-writing` - Practice writing
+- `/fluent-vocab` - Learn new vocabulary
 ```
 
 ### 8. Update All Databases

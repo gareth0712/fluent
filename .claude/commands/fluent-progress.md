@@ -187,9 +187,9 @@ Based on your progress, focus on:
 ---
 
 Want to practice now? Try:
-- `/dutch` - Start a learning session
-- `/dutch-review` - Review today's items
-- `/dutch-writing` - Practice writing
+- `/fluent-learn` - Start a learning session
+- `/fluent-review` - Review today's items
+- `/fluent-writing` - Practice writing
 ```
 
 ### 3. Interpretation Notes for the learner
@@ -227,4 +227,4 @@ Add a section explaining what the numbers mean:
 - Adjust practice focus based on weak areas
 - Share progress to stay motivated!
 
-Je doet het geweldig! (You're doing great!) 🌟
+You're doing great! Keep it up! 🌟
